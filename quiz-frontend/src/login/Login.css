@@ -1,0 +1,31 @@
+.form-box {
+  width: 380px;
+  height: 450px;
+  padding: 20px;
+  flex-direction: column;
+  opacity: 0.5;
+  border-radius: 2%;
+  margin-top: 20px;
+}
+.header-form {
+  margin-bottom: 15px;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.social .icon {
+  font-size: 35px;
+}
+
+.social .icon:hover {
+  color: red;
+  cursor: pointer;
+}

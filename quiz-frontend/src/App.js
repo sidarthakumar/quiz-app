@@ -1,14 +1,13 @@
 import "./App.css";
 import Header from "./common/Header";
-import Home from "./home/Home";
 import Login from "./login/Login";
-import ViewQuiz from "./view-quiz/ViewQuiz";
+import Register from "./register/Register";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <ViewQuiz />
+      <Register />
     </div>
   );
 }
